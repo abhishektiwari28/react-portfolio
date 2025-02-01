@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     host: true,
     strictPort: true,
-    port: 5000
+    port: 5000,
+    allowedHosts: true
   },
   css: {
     modules: {
